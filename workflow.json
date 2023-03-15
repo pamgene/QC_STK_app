@@ -1,23 +1,23 @@
 {
   "kind": "Workflow",
-  "id": "c845ceade32c4423bc616ff5ab45cc8f",
+  "id": "5fdacf2e254f508d0bd669ac03f0e160",
   "isDeleted": false,
-  "rev": "4-b8799aadec2aeea617329ed5e63a70ce",
+  "rev": "4-81a873274a6d1d4afbdea08ee1c1b83c",
   "description": "Quality control of Serine/Threonine PamChip measurements",
   "name": "QC_STK_app",
-  "createdBy": "ginberg",
+  "createdBy": "dschuller",
   "acl": {
     "kind": "Acl",
-    "owner": "pamgene",
+    "owner": "Test_NewTemplates",
     "aces": []
   },
   "createdDate": {
     "kind": "Date",
-    "value": "2022-02-03T08:54:09.297729Z"
+    "value": "2023-03-14T12:57:53.310437Z"
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2022-02-03T08:54:10.113852Z"
+    "value": "2023-03-14T13:03:09.944775Z"
   },
   "urls": [
     {
@@ -36,6 +36,21 @@
       "kind": "Pair",
       "key": "copyOf",
       "value": "7f865df18753ebf56ca2bbafe1ef94cc"
+    },
+    {
+      "kind": "Pair",
+      "key": "_upgrade_",
+      "value": "0.10.0"
+    },
+    {
+      "kind": "Pair",
+      "key": "_upgrade_reset_",
+      "value": "0.10.0"
+    },
+    {
+      "kind": "Pair",
+      "key": "_upgrade_old_task_",
+      "value": "0.10.15"
     }
   ],
   "url": {
@@ -45,7 +60,7 @@
   "version": "0.1.2",
   "authors": [],
   "isPublic": false,
-  "projectId": "c845ceade32c4423bc616ff5ab22f158",
+  "projectId": "5fdacf2e254f508d0bd669ac039f912e",
   "folderId": "",
   "links": [
     {
@@ -117,7 +132,7 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 141.8134765625,
+          "x": 141.8138427734375,
           "y": 55.0
         },
         "topLeft": {
@@ -294,7 +309,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 10
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -307,8 +322,8 @@
           "operatorRef": {
             "kind": "OperatorRef",
             "name": "Nominal CV Estimate",
-            "version": "0.0.1",
-            "operatorId": "c845ceade32c4423bc616ff5ab438aab",
+            "version": "0.1.0",
+            "operatorId": "5fdacf2e254f508d0bd669ac03f10687",
             "operatorKind": "ROperator",
             "propertyValues": [
               {
@@ -329,7 +344,7 @@
             ],
             "url": {
               "kind": "Url",
-              "uri": "https://github.com/tercen/nominal_cv_estimate_operator"
+              "uri": "https://github.com/pamgene/nominal_cv_estimate_operator"
             }
           },
           "environment": [
@@ -373,7 +388,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 10
+          "nRows": 1
         },
         "taskId": ""
       },
@@ -407,7 +422,7 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 101.91363525390625,
+          "x": 101.91390991210938,
           "y": 55.0
         },
         "topLeft": {
@@ -584,7 +599,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 10
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -597,19 +612,14 @@
           "operatorRef": {
             "kind": "OperatorRef",
             "name": "Log Cutoff",
-            "version": "0.0.1",
-            "operatorId": "c845ceade32c4423bc616ff5ab439b99",
+            "version": "0.1.1",
+            "operatorId": "5fdacf2e254f508d0bd669ac03eb55a8",
             "operatorKind": "ROperator",
             "propertyValues": [
               {
                 "kind": "PropertyValue",
                 "name": "Treatment of negative values",
                 "value": "Mask at cut-off"
-              },
-              {
-                "kind": "PropertyValue",
-                "name": "shift offset",
-                "value": "1"
               },
               {
                 "kind": "PropertyValue",
@@ -624,7 +634,7 @@
             ],
             "url": {
               "kind": "Url",
-              "uri": "https://github.com/tercen/log_cutoff_operator"
+              "uri": "https://github.com/pamgene/log_cutoff_operator"
             }
           },
           "environment": []
@@ -657,7 +667,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 10
+          "nRows": 1
         },
         "taskId": ""
       },
@@ -691,7 +701,7 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 173.95736694335938,
+          "x": 173.9578094482422,
           "y": 55.0
         },
         "topLeft": {
@@ -895,7 +905,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 10
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -968,7 +978,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 10
+          "nRows": 1
         },
         "taskId": ""
       },
@@ -1131,7 +1141,7 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 99.64569091796875,
+          "x": 99.6458740234375,
           "y": 55.0
         },
         "topLeft": {
@@ -1308,7 +1318,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 10
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -1340,8 +1350,8 @@
           "operatorRef": {
             "kind": "OperatorRef",
             "name": "Check input 1 operator",
-            "version": "0.0.2",
-            "operatorId": "c845ceade32c4423bc616ff5ab43a369",
+            "version": "0.0.3",
+            "operatorId": "5fdacf2e254f508d0bd669ac03a06b90",
             "operatorKind": "ROperator",
             "propertyValues": [],
             "url": {
@@ -1379,7 +1389,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 10
+          "nRows": 1
         },
         "taskId": ""
       },
@@ -1413,7 +1423,7 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 105.31562805175781,
+          "x": 105.31588745117188,
           "y": 55.0
         },
         "topLeft": {
@@ -1624,7 +1634,7 @@
   ],
   "offset": {
     "kind": "Point",
-    "x": 93.0,
-    "y": 110.0
+    "x": -8.0,
+    "y": -64.0
   }
 }
