@@ -2,7 +2,7 @@
   "kind": "Workflow",
   "id": "5fdacf2e254f508d0bd669ac03f0e160",
   "isDeleted": false,
-  "rev": "4-81a873274a6d1d4afbdea08ee1c1b83c",
+  "rev": "8-dc06b96d401f8f2ec2ab8b7f65d80dd5",
   "description": "Quality control of Serine/Threonine PamChip measurements",
   "name": "QC_STK_app",
   "createdBy": "dschuller",
@@ -17,7 +17,7 @@
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2023-03-14T13:03:09.944775Z"
+    "value": "2023-04-04T12:23:20.109650Z"
   },
   "urls": [
     {
@@ -1350,13 +1350,13 @@
           "operatorRef": {
             "kind": "OperatorRef",
             "name": "Check input 1 operator",
-            "version": "0.0.3",
-            "operatorId": "5fdacf2e254f508d0bd669ac03a06b90",
+            "version": "0.1.0",
+            "operatorId": "e50efaa75416f1b61950d47b861e6589",
             "operatorKind": "ROperator",
             "propertyValues": [],
             "url": {
               "kind": "Url",
-              "uri": "https://github.com/tercen/check_input1_operator"
+              "uri": "https://github.com/pamgene/check_input1_operator"
             }
           },
           "environment": []
@@ -1634,7 +1634,7 @@
   ],
   "offset": {
     "kind": "Point",
-    "x": -8.0,
-    "y": -64.0
+    "x": -41.0,
+    "y": 34.0
   }
 }
